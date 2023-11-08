@@ -26,8 +26,8 @@ jobs:
 
     - name: Build
       run: npm run build
-
-    - name: Deploy to GitHub Pages
-      run: npm run deploy
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
+        folder: build
         token: ${{ secrets.GITHUB_TOKEN }}
