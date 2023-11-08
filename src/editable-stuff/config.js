@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#2e4e3f, #003e74, #8dc73f, #ff6c0f",
   firstName: "Jinnyeong",
   middleName: "",
   lastName: "Kim",
@@ -51,8 +51,8 @@ const about = {
   imageSize: 375,
   message:
     "My name is Jinnyeong Kim. I’m a graduate of 2024 from Sunkyunkwan University at Republic of Korea with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume:
-    "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  //resume:
+  //  "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -70,20 +70,20 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "Achievements",
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     {
-      img: require("../editable-stuff/jinnyeong.jpeg"),
-      label: "First slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+      img: require("../editable-stuff/slides/hackertone_2019.jpeg"),
+      label: "오픈핵 해커톤 2019",
+      paragraph: "",
     },
     {
-      img: require("../editable-stuff/jinnyeong.jpeg"),
-      label: "Second slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+      img: require("../editable-stuff/slides/hackertone_2021.jpeg"),
+      label: "Unid-ton 해커톤 2021",
+      paragraph: "",
     },
   ],
   imageSize: {
@@ -97,23 +97,23 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
+    { name: "Kotlin", value: 95 },
+    { name: "Java", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "C/C++", value: 75 },
+    { name: "TypeScript", value: 70 },
+    { name: "Swift", value: 75 },
+    { name: "Dart", value: 55 },
+    { name: "Python", value: 70 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 90 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Positivity", value: 95 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
+    { name: "Problem Solving", value: 95 },
+    { name: "Empathy", value: 70 },
+    { name: "Organization", value: 80 },
     { name: "Creativity", value: 90 },
   ],
 };
@@ -123,23 +123,65 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Software Engineering job opportunities specifically in the field of Android Development. If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "wlssud0701@naver.com",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: "Software Engineer", // Here Add Company Name
-      companylogo: require("../assets/img/dell.png"),
-      date: "June 2018 – Present",
+      role: "Android / iOS Native Engineer", // Here Add Company Name
+      companylogo: require("../editable-stuff/minerinc.png"),
+      date: "May 2021 – Feb 2023",
     },
     {
-      role: "Front-End Developer",
-      companylogo: require("../assets/img/boeing.png"),
-      date: "May 2017 – May 2018",
+      role: "Software Engineer Intern",
+      companylogo: require("../editable-stuff/bearrobotics.jpeg"),
+      date: "Mar 2023 – Aug 2023",
+    },
+  ],
+};
+
+const achievements = {
+  show: true,
+  heading: "Awards and Certificates",
+  data: [
+    {
+      title: "ICPC Korea 2018",
+      subtitle: "2018.11",
+      description: "네이버 대표이사상",
+    },
+    {
+      title: "오픈핵 해커톤 2019",
+      subtitle: "2019.07",
+      description: "익산시장상",
+    },
+    {
+      title: "Unid-ton 해커톤 2021",
+      subtitle: "2021.11",
+      description: "은상",
+    },
+    {
+      title: "ICPC Korea 2021",
+      subtitle: "2021.11",
+      description: "본선 진출",
+    },
+    {
+      title: "ICPC Korea 2022",
+      subtitle: "2022.11",
+      description: "본선 진출",
+    },
+    {
+      title: "Samsung Software Certificate 2022",
+      subtitle: "2022.12",
+      description: "Pro",
+    },
+    {
+      title: "ICPC Korea 2023",
+      subtitle: "2023.11",
+      description: "본선 진출",
     },
   ],
 };
@@ -158,4 +200,5 @@ export {
   leadership,
   getInTouch,
   experiences,
+  achievements,
 };
