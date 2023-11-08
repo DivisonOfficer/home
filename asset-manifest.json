@@ -1,16 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.fe927caf.css",
-    "main.js": "/static/js/main.834077da.js",
+    "main.js": "/static/js/main.2b13ee21.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
-    "static/media/jinnyeong.jpeg": "/static/media/jinnyeong.a52f9b2ab4c7bec7f3b7.jpeg",
+    "static/media/hackertone_2021.jpeg": "/static/media/hackertone_2021.83e5c44728b8622e2e04.jpeg",
+    "static/media/hackertone_2019.jpeg": "/static/media/hackertone_2019.bf0be9b2659f1f9fbf05.jpeg",
+    "static/media/jinnyeong.jpeg": "/static/media/jinnyeong.f484df6aa042f92fa3ea.jpeg",
+    "static/media/minerinc.png": "/static/media/minerinc.cc689d390179e9a8e4a4.png",
+    "static/media/bearrobotics.jpeg": "/static/media/bearrobotics.797f830cad63e7d84081.jpeg",
     "index.html": "/index.html",
     "main.fe927caf.css.map": "/static/css/main.fe927caf.css.map",
-    "main.834077da.js.map": "/static/js/main.834077da.js.map",
+    "main.2b13ee21.js.map": "/static/js/main.2b13ee21.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.834077da.js"
+    "static/js/main.2b13ee21.js"
   ]
 }
