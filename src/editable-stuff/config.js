@@ -64,17 +64,30 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "divisonofficer", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: [
+    "NewsCalendar",
+    "unid-ton-2021-team115/HOT_PEOPLE",
+    "SINZAK/sinzak-android",
+    "repositorypattern",
+  ],
 };
 
 // Leadership SECTION
 const leadership = {
   show: true,
-  heading: "Achievements",
+  heading: "Career Monuments",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "In the tapestry of the digital epoch, a software engineer weaves with the threads of logic and creativity, fashioning solutions from the abstract. Each line of code is a silent stroke of a painter's brush, each function a verse in an unwritten epic of innovation. They are not mere architects of data, but sculptors of possibility, transforming the intangible into engines that power our very existence. In their craft, the mundane begets the miraculous, as they conjure the ethereal into the electronic. In the heart of each software engineer burns the fire of Prometheus, bringing not fire, but light to the world—a light that reveals new paths, new dreams, and the unyielding hope of what lies beyond the horizon of the known.",
   images: [
+    {
+      img: require("../editable-stuff/slides/2022_icpc.jpg"),
+      label: "ICPC Korea 2022",
+    },
+    {
+      img: require("../editable-stuff/slides/2022_skkuscholaship.jpg"),
+      label: "성균관대학교 장학금 수여",
+    },
     {
       img: require("../editable-stuff/slides/hackertone_2019.jpeg"),
       label: "오픈핵 해커톤 2019",
