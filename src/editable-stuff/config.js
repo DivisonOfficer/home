@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/jinnyeong.jpeg"),
   imageSize: 375,
   message:
-    "My name is Jinnyeong Kim. I’m a graduate of 2024 from Sunkyunkwan University at Republic of Korea with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "My name is Jinnyeong Kim. I am currently a master's student at POSTECH, South Korea, specializing in Computer Science within the Computer Graphics Lab. I graduated in 2024 from Sungkyunkwan University with a degree in Computer Engineering. My passion for contributing to the community drives me, and I aim to channel this enthusiasm into the realm of software engineering. In my spare time, I enjoy contributing to open source projects..",
   //resume:
   //  "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
@@ -154,6 +154,16 @@ const experiences = {
       companylogo: require("../editable-stuff/bearrobotics.jpeg"),
       date: "Mar 2023 – Aug 2023",
     },
+    {
+      role: "Software Engineer Intern (DS)",
+      companylogo: require("../editable-stuff/samsung.png"),
+      date: "Jan 2024 - Feb 2024",
+    },
+    {
+      role: "Master Student (Computer Graphics)",
+      companylogo: require("../editable-stuff/postech.png"),
+      date: "March 2024 - Present",
+    },
   ],
 };
 
@@ -195,6 +205,11 @@ const achievements = {
       title: "ICPC Korea 2023",
       subtitle: "2023.11",
       description: "본선 진출",
+    },
+    {
+      title: "SKKU Open Source Contributor",
+      subtitle: "2024.1",
+      description: "장려",
     },
   ],
 };

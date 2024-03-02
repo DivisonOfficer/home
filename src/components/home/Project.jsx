@@ -52,7 +52,7 @@ const Project = ({ heading, username, length, specfic }) => {
     } catch (error) {
       console.error(error.message);
     }
-  }, [allReposAPI, length, specfic, specficReposAPI]);
+  }, [allReposAPI, length, specfic, specficReposAPI, username]);
 
   useEffect(() => {
     fetchRepos();
