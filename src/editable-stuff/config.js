@@ -3,6 +3,41 @@ const navBar = {
   show: true,
 };
 
+const publications = {
+  show: true,
+  heading: "Publications",
+  data: [
+    {
+      title:
+        "Pixel-aligned RGB-NIR Stereo Imaging and Dataset for Robot Vision",
+      authors: ["Jinnyeong Kim", "Seung-Hwan Baek"],
+      pdf: "https://arxiv.org/abs/2411.18025",
+      year: "2024",
+      abstract:
+        "Integrating RGB and NIR imaging provides complementary spectral information, enhancing robotic vision in challenging lighting conditions. However, existing datasets and imaging systems lack pixel-level alignment between RGB and NIR images, posing challenges for downstream tasks. In this paper, we develop a robotic vision system equipped with two pixel-aligned RGB-NIR stereo cameras and a LiDAR sensor mounted on a mobile robot. The system simultaneously captures RGB stereo images, NIR stereo images, and temporally synchronized LiDAR point cloud. Utilizing the mobility of the robot, we present a dataset containing continuous video frames with pixel-aligned RGB and NIR stereo pairs under diverse lighting conditions. We introduce two methods that utilize our pixel-aligned RGB-NIR images: an RGB-NIR image fusion method and a feature fusion method. The first approach enables existing RGB-pretrained vision models to directly utilize RGB-NIR information without fine-tuning. The second approach fine-tunes existing vision models to more effectively utilize RGB-NIR information. Experimental results demonstrate the effectiveness of using pixel-aligned RGB-NIR images across diverse lighting conditions.",
+      // github :
+      // supple
+      // video
+    },
+    {
+      title: "Dual Exposure Stereo for Extended Dynamic Range 3D Imaging",
+      authors: [
+        "Juhyung Choi",
+        "Jinnyeong Kim",
+        "Seokjun Choi",
+        "Jinwoo Lee",
+        "Samuel Brucker",
+        "Mario Bijelic",
+        "Felix Heide",
+        "Seung-Hwan Baek",
+      ],
+      year: 2024,
+      abstract:
+        "Achieving robust stereo 3D imaging under diverse illumination conditions is an importat however challenging task, largely due to the limited dynamic ranges (DRs) of cameras, which are significantly smaller than real world DR. As a result, the accuracy of existing stereo depth estimation methods is often compromised by under- or over-exposed images. In this work, we introduce dual-exposure stereo for extended dynamic range 3D imaging. We develop automatic dual-exposure control method that adjusts the dual exposures, diverging them when the scene DR exceeds the camera DR, thereby providing information about broader DR. From the captured dual-exposure stereo images, we estimate depth by developing a motion-aware dual-exposure stereo depth network. To validate our proposed method, we develop a robot-vision system, collect real-world stereo video datasets, and generate a synthetic dataset. Our approach outperforms traditional exposure control and depth estimation methods.",
+    },
+  ],
+};
+
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#2e4e3f, #003e74, #8dc73f, #ff6c0f",
@@ -61,7 +96,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "divisonofficer", //i.e."johnDoe12Gh"
   reposLength: 0,
@@ -229,4 +264,5 @@ export {
   getInTouch,
   experiences,
   achievements,
+  publications,
 };

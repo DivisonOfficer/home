@@ -10,6 +10,7 @@ import {
   getInTouch,
   experiences,
   achievements,
+  publications,
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -24,6 +25,7 @@ import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
 import Achievements from "./components/home/Achievements.jsx";
+import Publications from "./components/home/PublicationCard.jsx";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -42,6 +44,12 @@ const Home = React.forwardRef((props, ref) => {
           link={about.imageLink}
           imgSize={about.imageSize}
           resume={about.resume}
+        />
+      )}
+      {publications.show && (
+        <Publications
+          heading={publications.heading}
+          publications={publications.data}
         />
       )}
       {experiences.show && <Experience experiences={experiences} />}
